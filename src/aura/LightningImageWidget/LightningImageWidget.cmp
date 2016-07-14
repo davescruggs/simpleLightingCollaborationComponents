@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" access="global" >
+  <aura:attribute name="imageSource" type="String" />
+  <aura:attribute name="imageClass" type="String" />
+  <aura:attribute name="imageHeight" type="Integer" />
+  <aura:attribute name="imageWidth" type="Integer" />
+
+  <div>
+    <img src="" class="" height="" width="" />
+  </div>
+
+</aura:component>
