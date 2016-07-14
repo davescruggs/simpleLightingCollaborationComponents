@@ -3,9 +3,10 @@
   <aura:attribute name="imageClass" type="String" />
   <aura:attribute name="imageHeight" type="Integer" />
   <aura:attribute name="imageWidth" type="Integer" />
+  <aura:attribute name="imageAlign" type="String" />
 
-  <div>
-    <img src="" class="" height="" width="" />
+  <div style="{!'text-align:' + v.imageAlign}">
+    <img src="{!v.imageSource}" class="{!v.imageClass}" height="{!v.imageHeight}" width="{!v.imageWidth}" />
   </div>
 
 </aura:component>
