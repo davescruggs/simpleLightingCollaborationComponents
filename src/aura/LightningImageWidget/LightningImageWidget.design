@@ -1,0 +1,7 @@
+<design:component label="Simple Single Image Loader" >
+    <design:attribute name="imageSource" label="Image Source" />
+    <design:attribute name="imageClass" label="Image Style Class" />
+    <design:attribute name="imageHeight" label="Image Height" default="300" />
+    <design:attribute name="imageWidth" label="Image Width" default="300" />
+
+</design:component>
